@@ -1,0 +1,13 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore WordPress core files
+wp-config.php
+
+# Ignore uploaded files
+wp-content/uploads/
+
+# Ignore build artifacts (if applicable)
+/dist/
+/node_modules/
