@@ -1,0 +1,14 @@
+name: WordPress deployment
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: systemctl reload nginx
